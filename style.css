@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+  background-color: #9c907d;
+}
+
+body {
+  max-width: 100%;
+  width: 95%;
+  margin: 80px auto;
+  background-color: #cbc4b9;
+
+  p {
+    margin: 0;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  .h3,
+  h3,
+  p,
+  a {
+    margin: 0 0 5px 25px;
+  }
+}
+
+img {
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid #9c907d;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  h4 {
+    margin: 10px 0 20px 25px;
+  }
+}
+
+.react_projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.react_native_projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.designs_etc_projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  flex: 48%;
+}
