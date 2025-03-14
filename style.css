@@ -8,14 +8,14 @@
 }
 
 .navbar {
-  background-color: #9c907d;
+  background-color: #d6bfcc;
 }
 
 body {
   max-width: 100%;
   width: 95%;
   margin: 80px auto;
-  background-color: #cbc4b9;
+  background-color: #f4dae9;
 
   p {
     margin: 0;
@@ -24,10 +24,10 @@ body {
 
 .info {
   display: flex;
-  justify-content: space-between;
+  justify-self: center;
+  gap: 30px;
 
   .h3,
-  h3,
   p,
   a {
     margin: 0 0 5px 25px;
@@ -39,7 +39,7 @@ img {
   height: 250px;
   object-fit: cover;
   border-radius: 15px;
-  border: 3px solid #9c907d;
+  border: 3px solid #c874a5;
 }
 
 .projects {
@@ -77,4 +77,8 @@ img {
   justify-items: center;
   text-align: center;
   flex: 48%;
+}
+
+.NES_text {
+  width: 650px;
 }
